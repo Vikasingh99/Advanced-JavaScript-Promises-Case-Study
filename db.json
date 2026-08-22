@@ -1,0 +1,178 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "price": 24990,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Apple iPad Air 11-inch",
+      "category": "Electronics",
+      "price": 59900,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max 270",
+      "category": "Footwear",
+      "price": 8995,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack 35L",
+      "category": "Bags",
+      "price": 2499,
+      "stock": 2,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Kindle Paperwhite 16GB",
+      "category": "Electronics",
+      "price": 14999,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Organic Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 1299,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Stainless Steel Water Bottle 1L",
+      "category": "Kitchen",
+      "price": 899,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Electronics",
+      "price": 9999,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "Yoga Mat Premium 6mm",
+      "category": "Sports",
+      "price": 1599,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1601925228919-24d84fcd49d0?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "Philips Air Fryer 4.1L",
+      "category": "Kitchen",
+      "price": 8499,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 11,
+      "name": "Wireless Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 5499,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=120&h=120&fit=crop",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "BoAt Airdopes 141 TWS Earbuds",
+      "category": "Electronics",
+      "price": 1299,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=120&h=120&fit=crop",
+      "active": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "SAVE10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minimumAmount": 1000,
+      "maximumDiscount": 500,
+      "active": true,
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "id": 2,
+      "code": "FLAT200",
+      "discountType": "fixed",
+      "discountValue": 200,
+      "minimumAmount": 2000,
+      "maximumDiscount": 200,
+      "active": true,
+      "expiryDate": "2027-06-30"
+    },
+    {
+      "id": 3,
+      "code": "WELCOME20",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minimumAmount": 3000,
+      "maximumDiscount": 1000,
+      "active": true,
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "id": 4,
+      "code": "BIGBUY500",
+      "discountType": "fixed",
+      "discountValue": 500,
+      "minimumAmount": 5000,
+      "maximumDiscount": 500,
+      "active": true,
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "id": 5,
+      "code": "EXPIRED50",
+      "discountType": "percentage",
+      "discountValue": 50,
+      "minimumAmount": 500,
+      "maximumDiscount": 300,
+      "active": true,
+      "expiryDate": "2023-01-01"
+    },
+    {
+      "id": 6,
+      "code": "INACTIVE",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minimumAmount": 1000,
+      "maximumDiscount": 300,
+      "active": false,
+      "expiryDate": "2027-12-31"
+    }
+  ],
+  "orders": [],
+  "payments": [],
+  "shipments": [],
+  "notifications": []
+}
